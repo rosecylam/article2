@@ -1,0 +1,160 @@
+/* All CSS styles go here */
+
+.cover {
+	width: 100vw;
+	height: 100vh;
+	/*background: black;*/
+}
+
+.container {
+	width: 100vw;
+	height: 100vh;
+}
+
+@font-face {
+	font-family: 'Cats';
+	src: url(../fonts/BMneco.ttf) format('truetype');
+}
+
+.title {
+	font-family: 'Cats';
+	font-size: 60px;
+	letter-spacing: 3px;
+	position: absolute;
+	top: 40%;
+	text-align: center;
+	width: 100vw;
+	color: #433c4c;
+}
+
+.red:hover {
+	color: #de383e;
+}
+
+.yellow:hover {
+	color: #f1c733;
+}
+
+.gold:hover {
+	color: #cc9038;
+}
+
+.purple:hover {
+	color: #a893c9;
+}
+
+.green:hover {
+	color: #a4e0ca;
+}
+
+.pink:hover {
+	color: #e76395;
+}
+
+/* "Jump To" box */
+
+.jumpto {
+	width: 700px;
+	height: 100px;
+	/*background: #f4eee6;*/
+	margin: auto;
+	margin-bottom: 60px;
+	/*padding: 30px 0 30px 0;*/
+}
+
+.jumpto ul {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	list-style-type: none;
+}
+
+.jumpto h2 {
+	font-family: 'Merriweather Sans', sans-serif;
+	font-weight: 700;
+	font-size: 12pt;
+	text-align: center;
+	margin-bottom: 20px;
+	color: #433c4c;
+}
+
+.jumpto button {
+	font-family: 'Merriweather Sans', sans-serif;
+	font-weight: 300;
+	font-size: 12pt;
+	text-align: center;
+	color: #433c4c;
+	width: 200px;
+	background-color: #a4e0ca;
+	border: none;
+	padding: 10px;
+	margin: 0 10px 0 10px;
+	float: left;
+	transition: 0.3s;
+	border-radius: 10px;
+}
+
+.jumpto button:hover {
+	color: white;
+	background: #6ab79b;
+	border: 0 none;
+}
+
+/* Main text */
+
+.text {
+	font-family: 'Merriweather Sans', sans-serif;
+	font-weight: 300;
+	font-size: 12pt;
+	line-height: 26px;
+	width: 700px;
+	margin: auto;
+	margin-top: 20px;
+	color: #433c4c;
+}
+
+.text:first-child {
+ 	margin-top: 60px;
+}
+
+.text:last-child {
+ 	margin-bottom: 60px;
+}
+
+.highlight {
+	font-size: 14pt;
+	padding: 0 0 0 20px;
+	border-left: 3px solid #de383e;
+	width: 680px;
+}
+
+.section {
+	width: 100vw;
+	/*height: 100px;*/
+	background: url("../images/type.png") no-repeat center fixed;
+	margin: auto;
+	margin: 60px 0 60px 0;
+	padding: 50px 0 50px 0;
+}
+
+.section h2 {
+	font-family: 'Merriweather Sans', sans-serif;
+	font-weight: 700;
+	font-size: 18pt;
+	text-align: center;
+	width: 450px;
+	background: white;
+	margin: auto;
+	padding: 20px;
+	color: #433c4c;
+}
+
+.credits {
+	margin-top: 50px;
+	border-top: 3px solid #de383e;
+	padding: 20px 20px 0 20px;
+	width: 650px;
+	font-style: italic;
+	color: #433c4c;
+	opacity: .5;
+}
